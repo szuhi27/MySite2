@@ -30,3 +30,13 @@ body {
 .c-purple {
     background-color: #6e00ff;
 }
+
+#right-content-box {
+}
+
+#about-me{
+    max-width : 600px;
+    border : solid;
+    border-color : turquoise;
+    border-width : 0.3em;
+}
