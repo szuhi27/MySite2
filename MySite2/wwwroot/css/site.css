@@ -35,13 +35,8 @@ body {
     max-width: 700px;
 }
 
-#about-me{
-    max-width : 600px;
-    border : solid;
-    border-color : turquoise;
-    border-width : 0.3em;
-}
-
-#projects-gird {
-    background-color: #353638;
+.block-bcg-blue {
+    background-color: #1A2C88;
+    border-radius: 25px;
+    margin : 0.5em;
 }
