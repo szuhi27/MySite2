@@ -32,6 +32,7 @@ body {
 }
 
 #right-content-box {
+    max-width: 700px;
 }
 
 #about-me{
@@ -39,4 +40,8 @@ body {
     border : solid;
     border-color : turquoise;
     border-width : 0.3em;
+}
+
+#projects-gird {
+    background-color: #353638;
 }
