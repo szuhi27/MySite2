@@ -19,31 +19,48 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #202124;
+    background-color: #0E0E10;
     font-family: 'Sylfaen', sans-serif;
+}
+
+#top-bar {
+    background-color: #18181B;
 }
 
 .cyan-text {
     color : #00ffff;
 }
 
+.white-text{
+    color: white;
+}
+
 .bcg-purple {
     background-color: #6e00ff;
 }
 
-#right-content-box {
-    max-width: 700px;
+.bcg-cyan {
+    background-color: #00ffff;
 }
 
-.block-bcg-blue {
-    background-color: #1A2C88;
+#right-content-box {
+    max-width: 800px;
+}
+
+.block-bcg {
+    background-color: #18181B;
+    border: 1px solid #495057;
     border-radius: 25px;
-    margin : 0.5em;
+    margin: 0.5em;
 }
 
 #profile-pic {
     border-color: #a1fefe;
     border-width: 0.3em;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 /* projekt lekattint képek róóla, v csdak mellette*/
