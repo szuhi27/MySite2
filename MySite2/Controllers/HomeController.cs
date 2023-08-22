@@ -18,7 +18,16 @@ namespace MySite2.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Projects()
+        {
+            return View();
+        }
+
+        public IActionResult Thesis()
+        {
+            return View();
+        }
+        public IActionResult Resume()
         {
             return View();
         }
