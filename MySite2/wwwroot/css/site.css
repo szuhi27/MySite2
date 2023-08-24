@@ -64,6 +64,7 @@ mw-60{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 
 #profile-pic {
