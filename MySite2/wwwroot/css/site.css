@@ -71,6 +71,12 @@ mw-60{
     width: auto;
 }
 
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
