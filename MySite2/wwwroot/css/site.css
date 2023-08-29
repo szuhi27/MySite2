@@ -6,6 +6,7 @@ html {
   html {
     font-size: 17px;
   }
+  
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -82,7 +83,3 @@ mw-60{
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-
-
-
-/* projekt lekattint képek róóla, v csdak mellette*/
