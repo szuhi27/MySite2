@@ -24,7 +24,9 @@ body {
 }
 
 #top-bar {
-    background-color: #18181B;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .cyan-text {

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="~/MySite2.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav id="top-bar" class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" data-bs-theme="dark">
+    <header id="top-bar">
+        <nav style="background-color: #18181B;" class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand cyan-text" asp-area="" asp-controller="Home" asp-action="Index">davidszuhai</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -34,7 +34,7 @@
         </nav>
     </header>
 
-    <div class="container text-center white-text">
+    <div style="margin-top: 70px" class="container text-center white-text">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
