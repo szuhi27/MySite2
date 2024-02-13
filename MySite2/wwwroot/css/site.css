@@ -3,14 +3,24 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
+    html {
     font-size: 17px;
-  }
+    }
 }
 
 @media (min-width: 1300px) {
     .content-line {
         max-width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .small-wrap {
+        flex-wrap: wrap;
+    }
+
+    .small-first-in-line {
+        order: -1;
     }
 }
 
