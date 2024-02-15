@@ -4,7 +4,7 @@ html {
 
 @media (min-width: 768px) {
     html {
-    font-size: 17px;
+    font-size: 18px;
     }
 }
 
@@ -47,6 +47,13 @@ p{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
+}
+
+#profile-pic {
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
 }
 
 .cyan-text {
