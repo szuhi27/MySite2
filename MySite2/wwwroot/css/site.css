@@ -9,8 +9,12 @@ html {
 }
 
 @media (min-width: 1300px) {
-    .content-line {
+    .mw-70-on-wide {
         max-width: 70%;
+    }
+
+    .mw-60-on-wide {
+        max-width: 60%;
     }
 }
 
@@ -19,8 +23,18 @@ html {
         flex-wrap: wrap;
     }
 
+    .small-full-width {
+        max-width: 95%;
+    }
+
     .small-first-in-line {
         order: -1;
+    }
+}
+
+@media (max-width: 1300px) {
+    .med-full-width {
+        max-width: 95%;
     }
 }
 
@@ -52,7 +66,7 @@ p{
 
 #profile-pic {
     max-width: 100%;
-    max-height: 250px;
+    max-height: 400px;
     height: auto;
 }
 
@@ -77,11 +91,11 @@ p{
 }
 
 .mw-30{
-    max-width: 30% !important;
+    max-width: 30%;
 }
 
 .mw-60 {
-    max-width: 60% !important;
+    max-width: 60%;
 }
 
 .small-text{
@@ -122,4 +136,14 @@ p{
     max-height: 8em;
     height: auto;
     border-radius: 15px;
+}
+
+.grey-bcg {
+    background-color: #18181B;
+    width: 100%;
+    max-height: 25%;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em;
 }

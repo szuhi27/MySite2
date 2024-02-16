@@ -68,7 +68,7 @@
     max-width: 65%;
 }
 
-#home-page {
+#home-page-2 {
     max-width: 95%;
     display: none;
 }
@@ -79,9 +79,20 @@
 
 
 
+#landing {
+    
+    width: auto;
+}
+
 #face {
+    max-width: 100%;
     border-bottom: 1px solid #495057;
     padding-left: 3rem;
     padding-right: 3rem;
     margin-top: 50px;
+}
+
+#home-page {
+    max-width: 95%;
+    margin-top: 3em;
 }
