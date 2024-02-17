@@ -146,3 +146,9 @@ p{
     margin-bottom: 2em;
     padding: 1.5em;
 }
+
+.round-button {
+    border-radius: 50%;
+    border: 2px solid #495057;
+    background-color: #18181B;
+}
